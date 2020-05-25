@@ -44,13 +44,15 @@ button{
 .slick-prev:hover,
 .slick-next:hover
 {
-  background-color: #54908c;
+
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
 .slick-next:hover:before,
 .slick-next:focus:before
 {
+  background-color: #54908c;
+  color: #fff;
     opacity: 1;
 }
 .slick-prev.slick-disabled:before,
@@ -65,7 +67,7 @@ button{
     font-family: 'slick';
     line-height: 1;
     font-weight: 400;
-    border: 0.05em solid #54908c;
+    /* border: 0.05em solid #54908c; */
 
     color: #54908c;
     padding: 0 0.3em;
@@ -87,13 +89,16 @@ button{
 
 .slick-prev:before
 {
+
     content: '<';
-    color: #fff;
+    color: #54908c;
 
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '>';
+    color: #fff;
+
 }
 
 .slick-next
@@ -109,7 +114,6 @@ button{
 .slick-next:before
 {
     content: '>';
-    color: #fff;
 }
 [dir='rtl'] .slick-next:before
 {
