@@ -44,7 +44,7 @@ button{
 .slick-prev:hover,
 .slick-next:hover
 {
-  /* background-color: #54908c; */
+  background-color: #54908c;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -88,6 +88,8 @@ button{
 .slick-prev:before
 {
     content: '<';
+    color: #fff;
+
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -107,10 +109,12 @@ button{
 .slick-next:before
 {
     content: '>';
+    color: #fff;
 }
 [dir='rtl'] .slick-next:before
 {
     content: '<';
+
 }
 
 /* Dots */
