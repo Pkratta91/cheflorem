@@ -165,9 +165,10 @@ header .mobilemenuContainer i{
 }
 
 .mobilemanuNav{
-  float: right;
   width: 0%;
+  float: right;
   height: 80vh;
+  right: 0;
   background-color: #61a5a0;
   text-align: center;
   position: fixed;
@@ -227,7 +228,7 @@ main .carouselContainer{
 
 main .carouselContainer .redContainer{
   width: 15%;
-  height: 30em;
+  height: 50vh;
   background-color: #f58080;
   position: relative;
   /* display: inline-block; */
@@ -235,7 +236,7 @@ main .carouselContainer .redContainer{
 
 main .carouselContainer .orangeContainer{
   width: 10%;
-  height: 30em;
+  height: 50vh;
   background-color: #f5c480;
   position: relative;
 
@@ -244,7 +245,7 @@ main .carouselContainer .orangeContainer{
 
 main .carouselContainer .yellowContainer{
   width: 10%;
-  height: 30em;
+  height: 50vh;
   background-color: #f5f480;
   position: relative;
 
@@ -254,7 +255,7 @@ main .carouselContainer .yellowContainer{
 
 main .carouselContainer .greenContainer{
   width: 10%;
-  height: 30em;
+  height: 50vh;
   background-color: #80f581;
   position: relative;
 
@@ -264,14 +265,14 @@ main .carouselContainer .greenContainer{
 
 main .carouselContainer .blueContainer{
   width: 10%;
-  height: 30em;
+  height: 50vh;
   background-color: #80acf5;
   position: relative;
 }
 
 main .carouselContainer .indigoContainer{
   width: 10%;
-  height: 30em;
+  height: 50vh;
   background-color: #8a80f5;
   position: relative;
 
@@ -281,7 +282,7 @@ main .carouselContainer .indigoContainer{
 
 main .carouselContainer .purpleContainer{
   width: 10%;
-  height: 30em;
+  height: 50vh;
   background-color: #d080f5;
   position: relative;
 
@@ -511,7 +512,7 @@ main .filterContainer #mybuttonContainer .btn:focus {
 }
 
 .redContent {
-  width: 100%;
+  /* width: 100%; */
   height: 20em;
   background-color: #f58080;
   margin: 0.5em;
@@ -528,7 +529,7 @@ main .filterContainer #mybuttonContainer .btn:focus {
 }
 
 .greenContent {
-  width: 100%;
+  /* width: 100%; */
   height: 20em;
   background-color: #80f581;
   margin: 0.5em;
@@ -546,7 +547,7 @@ main .filterContainer #mybuttonContainer .btn:focus {
 }
 
 .blueContent {
-  width: 100%;
+  /* width: 100%; */
   height: 20em;
   background-color: #80acf5;
   margin: 0.5em;

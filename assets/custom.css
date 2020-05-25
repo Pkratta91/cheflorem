@@ -125,7 +125,7 @@ https://gist.github.com/needim/d15fdc2ac133d8078f7c
   }
 
   footer{
-    padding: 2em 0 0 0;
+    padding: 2em 0;
   }
 
   footer .copyrightContainer{
@@ -147,8 +147,71 @@ https://gist.github.com/needim/d15fdc2ac133d8078f7c
 
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 598px) {
+  header .logoContainer h1 {
+    font-size: 2em;
+}
 
+  main .carouselContainer{
+    padding: 8em 0 2em 0;
+  }
+
+  main .filterContainer #mybuttonContainer .btn{
+    margin: 0.5em 0.5em;
+  }
+
+
+    main .blogContainer .blogContent .blog{
+      width: 100%;
+    }
+
+    main .blogContainer .blogContent .blog2{
+      width: 100%;
+    }
+
+    main .blogContainer .blogContent .blog3{
+        width: 100%;
+    }
+
+    main .blogContainer .blogContent .blog4{
+      width: 100%;
+    }
+
+    main .blogContainer .blogContent .blog5{
+      width: 100%;
+    }
+
+    main .blogContainer .blogContent .blog6{
+      width: 100%;
+    }
+
+  footer .policyContainer {
+    width: 100%;
+  }
+
+  footer .socialmediaContainer{
+    border: none;
+  }
+
+  footer .socialmediaContainer li{
+    border: none;
+    padding: 0 0.5em;
+  }
+}
+
+@media all and (max-width: 480px) {
+  header .logoContainer h1 {
+    font-size: 2em;
+}
+
+  main .carouselContainer{
+    padding: 8em 0 2em 0;
+  }
+
+  .column{
+    width: 100%;
+    margin: 0;
+  }
 }
 
 /*
