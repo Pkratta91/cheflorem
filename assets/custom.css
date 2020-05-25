@@ -117,6 +117,15 @@ https://gist.github.com/needim/d15fdc2ac133d8078f7c
     margin: 1em 0;
   }
 
+  footer .socialmediaContainer{
+    border: none;
+  }
+
+  footer .socialmediaContainer li{
+    border: none;
+    padding: 0 0.5em;
+  }
+
 }
 
 @media all and (max-width: 760px) {
