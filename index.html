@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Oliver Twist</title>
+	<meta name="description" content="An SEO description">
+	<meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Muli Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<!-- An external stylesheet link -->
+	<link rel="stylesheet" href="assets\slick-theme.css">
+	<link rel="stylesheet" href="assets\slick.css">
+	<link rel="stylesheet" href="assets\style.css">
+	<link rel="stylesheet" href="assets\custom.css">
+
+
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/c69261376b.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+	<header>
+		<div class="logoContainer">
+			<h1><a href="#">Lorem Ipsum</a></h1>
+		</div>
+		<div class="navContainer">
+			<ul>
+				<li>Recipes</li>
+				<li>Learn</li>
+				<li>Health</li>
+				<li>Video</li>
+				<li>Keep Cooking</li>
+			</ul>
+		</div>
+		<div class="searchContainer">
+			<i class="fas fa-search" onclick="opensearchFunction()"></i>
+		</div>
+		<div class="signupContainer">
+			<button type="button" name="button">Sign Up / Log In</button>
+		</div>
+		<div class="mobilemenuContainer" onclick="openNav()">
+			<i class="fas fa-bars"></i>
+		</div>
+	</header>
+	<div class="searchfieldContainer" id="searchContainer">
+		<div class="searchField">
+			<input type="text" placeholder="Search..">
+			<div class="closeiconContainer" onclick="closesearcFunction()">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
+	</div>
+	<div class="mobilemanuNav" id="mobileNav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<button class="signupButton" type="button" name="button">Sign Up</button>
+		<button class="loginButton" type="button" name="button">Log In</button>
+		<ul>
+			<li>Recipes</li>
+			<li>Learn</li>
+			<li>Health</li>
+			<li>Video</li>
+			<li>Keep Cooking</li>
+		</ul>
+	</div>
+	<main>
+		<div class="carouselContainer slider">
+			<div class="redContainer">
+					<h4>Lorem Ipsum</h4>
+			</div>
+			<div class="orangeContainer">
+					<h4>Lorem Ipsum</h4>
+			</div>
+			<div class="yellowContainer">
+					<h4>Lorem Ipsum</h4>
+			</div>
+			<div class="greenContainer">
+					<h4>Lorem Ipsum</h4>
+			</div>
+			<div class="blueContainer">
+					<h4>Lorem Ipsum</h4>
+			</div>
+			<div class="indigoContainer">
+					<h4>Lorem Ipsum</h4>
+			</div>
+			<div class="purpleContainer">
+					<h4>Lorem Ipsum</h4>
+			</div>
+		</div>
+		<!-- <button type="button" class="previousButton"><</button>
+		<button type="button" class="nextButton"><</button> -->
+
+		<div class="blogContainer">
+			<h1>Lorem Ipsum Blog</h1>
+			<h4>Lorem Ipsum</h4>
+			<div class="blogContent">
+				<div class="blog">
+					<h3>Lorem Ipsum</h3>
+				</div>
+				<div class="blog2">
+					<h3>Lorem Ipsum</h3>
+
+				</div>
+				<div class="blog3">
+					<h3>Lorem Ipsum</h3>
+
+				</div>
+				<div class="blog4">
+					<h3>Lorem Ipsum</h3>
+
+				</div>
+				<div class="blog5">
+					<h3>Lorem Ipsum</h3>
+
+				</div>
+				<div class="blog6">
+					<h3>Lorem Ipsum</h3>
+
+				</div>
+			</div>
+		</div>
+		<div class="vlogContainer" >
+			<h1>Lorem Ipsum Videos</h1>
+			<h4>Lorem Ipsum</h4>
+			<div class="videoContent">
+				<div class="video">
+					<video controls>
+					  <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+					  <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/ogg">
+					</video>
+					<h3>Lorem Ipsum</h3>
+				</div>
+				<div class="video">
+					<video controls>
+					  <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+					  <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/ogg">
+					</video>
+					<h3>Lorem Ipsum</h3>
+				</div>
+				<div class="video">
+					<video controls>
+					  <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+					  <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/ogg">
+					</video>
+					<h3>Lorem Ipsum</h3>
+				</div>
+				<div class="video">
+					<video controls>
+					  <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+					  <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/ogg">
+					</video>
+					<h3>Lorem Ipsum</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="filterContainer">
+			<h1>Lorem Ipsum</h1>
+			<h4>Lorem Ipsum</h4>
+			<div id="mybuttonContainer">
+				<h5>Filter by:</h5>
+				<button class="btn active" onclick="filterSelection('all')">All Colours</button>
+				<button class="btn" id="redColour" onclick="filterSelection('red')">Red</button>
+				<button class="btn" id="greenColour" onclick="filterSelection('green')">Green</button>
+				<button class="btn" id="blueColour" onclick="filterSelection('blue')">Blue</button>
+			</div>
+
+			<div class="row">
+				  <div class="column red">
+				    <div class="redContent">
+				      <h3>Red</h3>
+				    </div>
+				  </div>
+				  <div class="column red">
+				    <div class="redContent">
+				      <h3>Red</h3>
+				    </div>
+				  </div>
+				  <div class="column red">
+				    <div class="redContent">
+				      <h3>Red</h3>
+				    </div>
+				  </div>
+
+				  <div class="column green">
+				    <div class="greenContent">
+				      <h3>Green</h3>
+				    </div>
+				  </div>
+				  <div class="column green">
+				    <div class="greenContent">
+				      <h3>Green</h3>
+				    </div>
+				  </div>
+				  <div class="column green">
+				    <div class="greenContent">
+				      <h3>Green</h3>
+				    </div>
+				  </div>
+
+				  <div class="column blue">
+				    <div class="blueContent">
+				      <h3>Blue</h3>
+				    </div>
+				  </div>
+				  <div class="column blue">
+				    <div class="blueContent">
+				      <h3>Blue</h3>
+				    </div>
+				  </div>
+				  <div class="column blue">
+				    <div class="blueContent">
+				      <h3>Blue</h3>
+				    </div>
+				  </div>
+				</div>
+
+				<button class="viewmoreButton"><span>View More </span></button>
+			</div>
+	</main>
+
+	<footer>
+		<div class="copyrightContainer">
+			<h4>© Lorem Ipsum</h4>
+		</div>
+		<div class="policyContainer">
+			<ul>
+				<li>TERMS OF USE</li>
+				<li>PRIVACY POLICY</li>
+				<li>COOKIES</li>
+				<li>Lorem Ipsum</li>
+				<li>CONTACT</li>
+				<li>SITEMAP</li>
+			</ul>
+		</div>
+			<div class="socialmediaContainer">
+				<ul>
+					<li><i class="fab fa-facebook-square"></i></li>
+					<li><i class="fab fa-instagram"></i></li>
+					<li><i class="fab fa-twitter"></i></li>
+					<li><i class="fab fa-pinterest"></i></li>
+				</ul>
+			</div>
+	</footer>
+
+<script src="assets\slick.js"></script>
+<script src="assets\javascript.js"></script>
+
+</body>
+</html>

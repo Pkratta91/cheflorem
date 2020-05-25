@@ -1,0 +1,676 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat",Georgia,serif;
+}
+
+body{
+  width: 100%;
+}
+
+header{
+  width: 100%;
+  background-color: #61a5a0;
+  text-align: center;
+  position: fixed;
+  z-index: 95;
+  padding: 1em 4em;
+}
+
+header .logoContainer{
+  float: left;
+  line-height: 50px;
+}
+
+header .logoContainer h1{
+  color: #fff;
+  font-size: 2em;
+}
+
+header .logoContainer a{
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+header .navContainer{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+header .navContainer ul{
+  color: #fff;
+  font-weight: bold;
+}
+
+header .navContainer ul li{
+  float: left;
+  list-style: none;
+  padding: 0 1em;
+  text-transform: uppercase;
+}
+
+header .signupContainer{
+  padding: 0 1em 0 0;
+  float: right;
+  line-height: 50px;
+  font-size: 1em;
+
+}
+
+header .signupContainer button{
+  background-color: #b54484;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1em 0.5em;
+  border: 0;
+  border-radius: 0.4em;
+}
+
+header .searchContainer {
+  float: right;
+  line-height: 50px;
+  font-size: 1.5em;
+
+}
+
+header .searchContainer i{
+  color: #fff;
+}
+
+header .mobilemenuContainer{
+  float: right;
+  display: none;
+}
+
+header .mobilemenuContainer i{
+  font-size: 2em;
+  color: #fff;
+  line-height: 50px;
+}
+
+.searchfieldContainer{
+  width: 100%;
+  background-color: #54908c;
+  text-align: center;
+  position: fixed;
+  z-index: 95;
+  margin-top: 5em;
+  padding: 0 4em;
+  display: none;
+}
+
+#opensearchFunction{
+  display: none;
+}
+
+.searchfieldContainer .searchField{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  transition: 0.5s;
+
+}
+
+.searchfieldContainer .searchField i{
+  color: #fff;
+  font-size: 1.5em;
+  /* vertical-align: middle; */
+  float: left;
+  line-height: 50px;
+}
+
+.searchfieldContainer .searchField input{
+  width: 100%;
+  float: left;
+  background-color: #54908c;
+  font-size: 1em;
+  color: #fff;
+  border: 0;
+  line-height: 50px;
+}
+
+.searchfieldContainer .searchField ::placeholder{
+  color: #fff;
+}
+
+.searchfieldContainer .searchField input:focus{
+  outline: none;
+}
+
+.closeiconContainer{
+  margin: auto;
+}
+
+.closeiconContainer .bar1, .bar2, .bar3 {
+  width: 1.5em;
+  height: 0.2em;
+  background-color: #fff;
+  margin: 0.5em 0;
+  transition: 0.4s;
+}
+
+.closeiconContainer .bar1 {
+  transform: rotate(-45deg) translate(-16px, 0px);
+}
+
+.closeiconContainer .bar2 {opacity: 0;}
+
+.closeiconContainer .bar3 {
+  transform: rotate(45deg) translate(-16px, 0px);
+}
+
+.mobilemanuNav{
+  float: right;
+  width: 0%;
+  height: 80vh;
+  background-color: #61a5a0;
+  text-align: center;
+  position: fixed;
+  z-index: 95;
+  margin-top: 5em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.mobilemanuNav a{
+  width: 100%;
+  float: right;
+  color: #fff;
+  font-size: 3em;
+  text-align: right;
+  text-decoration: none;
+  padding-right: 1em;
+}
+
+.mobilemanuNav .signupButton{
+  width: 45%;
+  background-color: #b54484;
+  color: #fff;
+  padding: 1em 0em;
+}
+
+.mobilemanuNav .loginButton{
+  width: 45%;
+  background-color: #308d89;
+  color: #fff;
+  padding: 1em 0em;
+}
+
+
+.mobilemanuNav ul{
+  width: 100%;
+  text-align: left;
+}
+
+.mobilemanuNav li{
+  list-style: none;
+  color: #fff;
+  padding: 1em;
+  border-bottom: 0.1em solid
+}
+
+main .carouselContainer{
+  width: 100%;
+  margin: 0 auto;
+  /* margin: 8em 0 2em 0; */
+  padding: 8em 0 2em 0;
+  border-bottom: 0.1em solid #cbc0aa;
+  position: relative;
+  /* display: inline-flex; */
+}
+
+main .carouselContainer .redContainer{
+  width: 15%;
+  height: 30em;
+  background-color: #f58080;
+  position: relative;
+  /* display: inline-block; */
+}
+
+main .carouselContainer .orangeContainer{
+  width: 10%;
+  height: 30em;
+  background-color: #f5c480;
+  position: relative;
+
+  /* display: inline-block; */
+}
+
+main .carouselContainer .yellowContainer{
+  width: 10%;
+  height: 30em;
+  background-color: #f5f480;
+  position: relative;
+
+  /* display: inline-block; */
+
+}
+
+main .carouselContainer .greenContainer{
+  width: 10%;
+  height: 30em;
+  background-color: #80f581;
+  position: relative;
+
+  /* display: inline-block; */
+
+}
+
+main .carouselContainer .blueContainer{
+  width: 10%;
+  height: 30em;
+  background-color: #80acf5;
+  position: relative;
+}
+
+main .carouselContainer .indigoContainer{
+  width: 10%;
+  height: 30em;
+  background-color: #8a80f5;
+  position: relative;
+
+  /* display: inline-block; */
+
+}
+
+main .carouselContainer .purpleContainer{
+  width: 10%;
+  height: 30em;
+  background-color: #d080f5;
+  position: relative;
+
+  /* display: inline-block; */
+
+}
+
+main .carouselContainer h4{
+  width: 100%;
+  background-color: #fff;
+  color: #7b8185;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main .blogContainer{
+  width: 100%;
+  padding-top: 2em;
+  text-align: center;
+  border-bottom: 0.1em solid #cbc0aa;
+
+}
+
+main .blogContainer h1{
+
+}
+
+main .blogContainer h4{
+  color: #a3865b;
+}
+
+main .blogContainer .blogContent{
+  width: 60%;
+  margin: 0 auto;
+  padding: 2em 0;
+  /* display: inline-flex; */
+}
+
+main .blogContainer .blogContent .blog{
+  width: 30%;
+  height: 40vh;
+  background-color: #f58080;
+  display: inline-block;
+  position: relative;
+  margin: 0.5em;
+
+}
+
+main .blogContainer .blogContent .blog2{
+  width: 30%;
+  height: 40vh;
+  background-color: #f5c480;
+  display: inline-block;
+  position: relative;
+  margin: 0.5em;
+
+}
+
+main .blogContainer .blogContent .blog3{
+  width: 30%;
+  height: 40vh;
+  background-color: #f5f480;
+  display: inline-block;
+  position: relative;
+  margin: 0.5em;
+
+}
+
+main .blogContainer .blogContent .blog4{
+  width: 30%;
+  height: 40vh;
+  background-color: #80f581;
+  display: inline-block;
+  position: relative;
+  margin: 0.5em;
+
+}
+
+main .blogContainer .blogContent .blog5{
+  width: 30%;
+  height: 40vh;
+  background-color: #80acf5;
+  display: inline-block;
+  position: relative;
+  margin: 0.5em;
+
+}
+
+main .blogContainer .blogContent .blog6{
+  width: 30%;
+  height: 40vh;
+  background-color: #8a80f5;
+  display: inline-block;
+  position: relative;
+  margin: 0.5em;
+}
+
+main .blogContainer .blogContent h3{
+  width: 100%;
+  background-color: #fff;
+  color: #7b8185;
+  position: absolute;
+  bottom: 0;
+  /* padding: 1em 0; */
+}
+
+main .vlogContainer{
+  width: 100%;
+  padding-top: 2em;
+  text-align: center;
+  border-bottom: 0.1em solid #cbc0aa;
+}
+
+main .vlogContainer h1{
+
+}
+
+main .vlogContainer h4{
+  color: #a3865b;
+}
+
+main .vlogContainer .videoContent{
+  width: 100%;
+  padding: 2em 0;
+  /* display: inline-flex; */
+}
+
+main .vlogContainer .videoContent .video{
+  width: 20%;
+  display: inline-block;
+  margin: 0 0.5em;
+  position: relative;
+}
+
+main .vlogContainer .videoContent video{
+  width: 99%;
+
+}
+
+main .vlogContainer .videoContent h3{
+  width: 100%;
+  background-color: #fff;
+  color: #7b8185;
+  /* position: absolute;
+  bottom: 0;
+  padding: 1em 0; */
+}
+
+main .filterContainer{
+  width: 100%;
+  min-width: 90%;
+  text-align: center;
+  padding: 2em;
+  border-bottom: 0.1em solid #cbc0aa;
+
+}
+
+main .filterContainer h1{
+
+}
+
+main .filterContainer h4{
+  color: #7b8185;
+
+}
+
+main .filterContainer #mybuttonContainer{
+
+  padding: 2em 0;
+}
+
+main .filterContainer #mybuttonContainer #redColour{
+  background-color: #f58080;
+}
+
+main .filterContainer #mybuttonContainer #greenColour{
+  background-color: #80f581;
+
+}
+
+main .filterContainer #mybuttonContainer #blueColour{
+  background-color: #80acf5;
+
+}
+
+main .filterContainer #mybuttonContainer h5{
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+main .filterContainer #mybuttonContainer .btn{
+  background-color: #b6b6b6;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5em 2em;
+  margin: 0 0.5em;
+  display: inline-block;
+  cursor: pointer;
+}
+
+main .filterContainer #mybuttonContainer .btn:hover {
+  background-color: #ddd;
+  color: #000;
+
+}
+
+main .filterContainer #mybuttonContainer .btn.active {
+  background-color: #666;
+}
+
+main .filterContainer #mybuttonContainer .btn:focus {
+  outline: none;
+}
+
+.row{
+  width: 100%;
+}
+
+.column {
+  width: 25%;
+  margin: 0.5em;
+  display: none;
+
+}
+
+.redContent {
+  width: 100%;
+  height: 20em;
+  background-color: #f58080;
+  margin: 0.5em;
+  position: relative;
+}
+
+.redContent h3{
+  width: 100%;
+  background-color: #fff;
+  color: #7b8185;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.greenContent {
+  width: 100%;
+  height: 20em;
+  background-color: #80f581;
+  margin: 0.5em;
+  position: relative;
+
+}
+
+.greenContent h3{
+  width: 100%;
+  background-color: #fff;
+  color: #7b8185;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.blueContent {
+  width: 100%;
+  height: 20em;
+  background-color: #80acf5;
+  margin: 0.5em;
+  position: relative;
+
+}
+
+.blueContent h3{
+  width: 100%;
+  background-color: #fff;
+  color: #7b8185;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: inline-block;
+}
+
+.filterContainer .viewmoreButton {
+  background-color: #fff;
+  border: 0.1em solid #54908c;
+  color: #2e353c;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em 2em;
+  /* transition: all 0.5s; */
+  cursor: pointer;
+  margin: 2em 0;
+}
+
+.filterContainer .viewmoreButton:hover {
+  background-color: #54908c;
+  color: #fff;
+}
+
+.filterContainer .viewmoreButton:focus {
+  outline: none;
+}
+
+.filterContainer .viewmoreButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.filterContainer .viewmoreButton span:after {
+  content: '+';
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  opacity: 0;
+  top: -10px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.filterContainer .viewmoreButton:hover span {
+  padding-right: 25px;
+}
+
+.filterContainer .viewmoreButton:hover span:after {
+  opacity: 1;
+  right: 0;
+  transform: rotate(360deg) ;
+}
+
+footer{
+  width: 100%;
+  background-color: #54908c;
+  text-align: center;
+}
+
+footer .copyrightContainer{
+  color: #fff;
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+footer .policyContainer{
+  color: #fff;
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+footer .policyContainer li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 2em;
+  text-transform: uppercase;
+}
+
+footer .socialmediaContainer{
+  color: #fff;
+  display: inline-block;
+  font-size: 1.5em;
+  vertical-align: middle;
+  border-left: 0.1em solid #62a5a1;
+}
+
+
+footer .socialmediaContainer li{
+  list-style: none;
+  display: inline-block;
+  border-right: 0.1em solid #62a5a1;
+  padding: 1em 0.5em;
+
+
+}
+
+footer{
+  width: 100%;
+  background-color: #54908c;
+}
+
+footer{
+  width: 100%;
+  background-color: #54908c;
+}
