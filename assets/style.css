@@ -80,6 +80,7 @@ header .searchContainer {
 
 header .searchContainer i{
   color: #fff;
+  padding: 0 1em;
 }
 
 header .mobilemenuContainer{
@@ -227,36 +228,26 @@ main .carouselContainer{
 }
 
 main .carouselContainer .redContainer{
-  width: 15%;
-  height: 50vh;
-  background-color: #f58080;
   position: relative;
-  /* display: inline-block; */
+}
+
+main .carouselContainer .redContainer img{
+
 }
 
 main .carouselContainer .orangeContainer{
-  width: 10%;
-  height: 50vh;
-  background-color: #f5c480;
   position: relative;
 
-  /* display: inline-block; */
 }
 
 main .carouselContainer .yellowContainer{
-  width: 10%;
-  height: 50vh;
-  background-color: #f5f480;
+
   position: relative;
 
-  /* display: inline-block; */
 
 }
 
 main .carouselContainer .greenContainer{
-  width: 10%;
-  height: 50vh;
-  background-color: #80f581;
   position: relative;
 
   /* display: inline-block; */
@@ -264,16 +255,10 @@ main .carouselContainer .greenContainer{
 }
 
 main .carouselContainer .blueContainer{
-  width: 10%;
-  height: 50vh;
-  background-color: #80acf5;
   position: relative;
 }
 
 main .carouselContainer .indigoContainer{
-  width: 10%;
-  height: 50vh;
-  background-color: #8a80f5;
   position: relative;
 
   /* display: inline-block; */
@@ -281,9 +266,6 @@ main .carouselContainer .indigoContainer{
 }
 
 main .carouselContainer .purpleContainer{
-  width: 10%;
-  height: 50vh;
-  background-color: #d080f5;
   position: relative;
 
   /* display: inline-block; */
@@ -294,8 +276,6 @@ main .carouselContainer h4{
   width: 100%;
   background-color: #fff;
   color: #7b8185;
-  position: absolute;
-  bottom: 0;
   text-align: center;
   padding: 1em 0;
 }
@@ -325,15 +305,19 @@ main .blogContainer .blogContent{
 
 main .blogContainer .blogContent .blog{
   width: 30%;
-  height: 40vh;
-  background-color: #f58080;
+  height: auto;
   display: inline-block;
   position: relative;
   margin: 0.5em;
 
 }
 
-main .blogContainer .blogContent .blog2{
+main .blogContainer .blogContent .blog img{
+  width: 100%;
+  height: auto;
+}
+
+/* main .blogContainer .blogContent .blog2{
   width: 30%;
   height: 40vh;
   background-color: #f5c480;
@@ -380,15 +364,13 @@ main .blogContainer .blogContent .blog6{
   display: inline-block;
   position: relative;
   margin: 0.5em;
-}
+} */
 
 main .blogContainer .blogContent h3{
   width: 100%;
   background-color: #fff;
   color: #7b8185;
-  position: absolute;
-  bottom: 0;
-  /* padding: 1em 0; */
+  margin: 1em 0 0 0;
 }
 
 main .vlogContainer{
@@ -512,9 +494,14 @@ main .filterContainer #mybuttonContainer .btn:focus {
 }
 
 .redContent {
-  /* width: 100%; */
-  height: 20em;
-  background-color: #f58080;
+  margin: 0.5em;
+  position: relative;
+}
+
+
+.redContent img{
+  width: 100%;
+  height: auto;
   margin: 0.5em;
   position: relative;
 }
@@ -523,45 +510,43 @@ main .filterContainer #mybuttonContainer .btn:focus {
   width: 100%;
   background-color: #fff;
   color: #7b8185;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .greenContent {
-  /* width: 100%; */
-  height: 20em;
-  background-color: #80f581;
   margin: 0.5em;
   position: relative;
+}
 
+.greenContent img{
+  width: 100%;
+  height: auto;
+  margin: 0.5em;
+  position: relative;
 }
 
 .greenContent h3{
   width: 100%;
   background-color: #fff;
   color: #7b8185;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .blueContent {
-  /* width: 100%; */
-  height: 20em;
-  background-color: #80acf5;
   margin: 0.5em;
   position: relative;
 
+}
+
+.blueContent img{
+  width: 100%;
+  height: auto;
+  margin: 0.5em;
+  position: relative;
 }
 
 .blueContent h3{
   width: 100%;
   background-color: #fff;
   color: #7b8185;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 /* The "show" class is added to the filtered elements */

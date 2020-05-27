@@ -28,6 +28,10 @@ https://gist.github.com/needim/d15fdc2ac133d8078f7c
   font-size: 0.8em;
   }
 
+  main .blogContainer .blogContent{
+    width: 70%;
+  }
+
 }
 
 @media all and (max-width: 980px) {
@@ -65,32 +69,11 @@ https://gist.github.com/needim/d15fdc2ac133d8078f7c
     display: block;
   }
 
+  main .blogContainer .blogContent{
+    width: 90%;
+  }
+
   main .blogContainer .blogContent .blog{
-    width: 40%;
-    margin-bottom: 2em;
-  }
-
-  main .blogContainer .blogContent .blog2{
-    width: 40%;
-    margin-bottom: 2em;
-  }
-
-  main .blogContainer .blogContent .blog3{
-    width: 40%;
-    margin-bottom: 2em;
-  }
-
-  main .blogContainer .blogContent .blog4{
-    width: 40%;
-    margin-bottom: 2em;
-  }
-
-  main .blogContainer .blogContent .blog5{
-    width: 40%;
-    margin-bottom: 2em;
-  }
-
-  main .blogContainer .blogContent .blog6{
     width: 40%;
     margin-bottom: 2em;
   }
@@ -129,6 +112,10 @@ https://gist.github.com/needim/d15fdc2ac133d8078f7c
 }
 
 @media all and (max-width: 760px) {
+  main .blogContainer .blogContent{
+    width: 90%;
+  }
+
   main .vlogContainer .videoContent .video{
     width: 50%;
   }
@@ -170,28 +157,12 @@ https://gist.github.com/needim/d15fdc2ac133d8078f7c
   }
 
 
-    main .blogContainer .blogContent .blog{
-      width: 100%;
+  main .blogContainer .blogContent .blog{
+    width: 95%;
     }
 
-    main .blogContainer .blogContent .blog2{
-      width: 100%;
-    }
-
-    main .blogContainer .blogContent .blog3{
-        width: 100%;
-    }
-
-    main .blogContainer .blogContent .blog4{
-      width: 100%;
-    }
-
-    main .blogContainer .blogContent .blog5{
-      width: 100%;
-    }
-
-    main .blogContainer .blogContent .blog6{
-      width: 100%;
+  main .vlogContainer .videoContent .video{
+    width: 80%; 
     }
 
   footer .policyContainer {
